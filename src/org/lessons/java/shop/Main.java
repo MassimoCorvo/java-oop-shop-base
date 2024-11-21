@@ -19,6 +19,8 @@ public class Main {
         System.out.println("Inserisci l'iva");
         int iva = inputScanner.nextInt();
 
+        inputScanner.close();
+
         Prodotto prodotto = new Prodotto(nome, descrizione, prezzo, iva);
         //System.out.println(prodotto.codice + " " + prodotto.nome + " " + prodotto.descrizione + " " + prodotto.prezzo + " " + prodotto.iva);
 
